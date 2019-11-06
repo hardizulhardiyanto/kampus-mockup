@@ -1,0 +1,674 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"><title>admin_stt</title>
+
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+overflow: hidden;
+background-color: #333;
+}
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.dropdown {
+float: left;
+overflow: hidden;
+}
+.dropdown .dropbtn {
+font-size: 16px; border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: red;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+</style>
+<!--STYLE EXCEL Input Kategori Jabatan Tatalaksana-->
+<style id="rancangan 2_payroll_10031_Styles">
+<!--table
+{mso-displayed-decimal-separator:"\.";
+mso-displayed-thousand-separator:"\,";}
+.xl1510031
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:bottom;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6310031
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:"Times New Roman", serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:middle;
+border-top:none;
+border-right:1.0pt solid windowtext;
+border-bottom:1.0pt solid windowtext;
+border-left:1.0pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:normal;}
+.xl6410031
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:"Times New Roman", serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:middle;
+border:1.0pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:normal;}
+.xl6510031
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:"Times New Roman", serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:middle;
+border-top:1.0pt solid windowtext;
+border-right:1.0pt solid windowtext;
+border-bottom:1.0pt solid windowtext;
+border-left:none;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:normal;}
+.xl6610031
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:"Times New Roman", serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:middle;
+border-top:none;
+border-right:1.0pt solid windowtext;
+border-bottom:1.0pt solid windowtext;
+border-left:none;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:normal;}
+.xl6710031
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:"Times New Roman", serif;
+mso-font-charset:0;
+mso-number-format:"_\(\[$IDR\]\\ * \#\,\#\#0_\)\;_\(\[$IDR\]\\ * \\\(\#\,\#\#0\\\)\;_\(\[$IDR\]\\ * \0022-\0022_\)\;_\(\@_\)";
+text-align:general;
+vertical-align:middle;
+border-top:none;
+border-right:1.0pt solid windowtext;
+border-bottom:1.0pt solid windowtext;
+border-left:none;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:normal;}
+.xl6810031
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:"Times New Roman", serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:middle;
+border-top:1.0pt solid windowtext;
+border-right:none;
+border-bottom:1.0pt solid windowtext;
+border-left:none;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:normal;}
+.xl6910031
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:"Times New Roman", serif;
+mso-font-charset:0;
+mso-number-format:"_\(\[$IDR\]\\ * \#\,\#\#0_\)\;_\(\[$IDR\]\\ * \\\(\#\,\#\#0\\\)\;_\(\[$IDR\]\\ * \0022-\0022_\)\;_\(\@_\)";
+text-align:general;
+vertical-align:middle;
+border-top:none;
+border-right:none;
+border-bottom:1.0pt solid windowtext;
+border-left:none;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:normal;}
+.xl7010031
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:"Times New Roman", serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:middle;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:normal;}
+.xl7110031
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:middle;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+-->
+</style>
+</head><body>
+<table style="text-align: left; width: 1348px; height: 578px;" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td style="background-color: rgb(51, 102, 255);">
+<table style="text-align: left; margin-left: 0px; width: 1695px; height: 120px;" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td style="width: 136px;"><img style="width: 129px; height: 104px;" alt="" src="image/aad9fe20-b6c1-4f0c-9aee-e43867fc9a5e.jpg"></td>
+<td style="background-color: white; width: 1539px;">
+<div style="margin-left: 280px;"><big><big><big><span style="font-weight: bold;">&nbsp;WASTUKANCANA</span></big></big></big><br style="font-weight: bold;">
+<span style="font-weight: bold;">&nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp;PAYROLL SYSTEM</span></div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="navbar"><a href="index.html">Home</a>
+<a href="pemasukan.html">Kelola Pemasukan</a>
+<a href="honor.html">Kelola Honor</a>
+<a href="bulanan.html">Kelola Bulanan</a>
+<a href="kategori.html">Kelola Kategori</a>
+<a href="dosen.html">Dosen dan Tatalaksana</a>
+<a href="perkuliahan.html">Kelola Perkuliahan</a>
+<a href="pinjaman.html">Kelola Pinjaman</a>
+<a href="laporan.html">Laporan Keuangan</a>
+</div>
+<table ="">
+</table>
+<br>
+<table style="background-color: white; width: 1270px; height: 31px; text-align: left; margin-left: 0px; margin-right: auto;" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td>
+<div style="text-align: center; font-weight: bold;">Kategori
+Data Jabatan Akademik<br>
+</div>
+<br>
+<div style="text-align: left;"></div>
+<form class="example" action="/action_page.php"><input placeholder="Search.." name="search" type="text"><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"> &nbsp;<span style="font-weight: bold; color: white;">Tanggal Input</span>
+&nbsp;&nbsp;</font><span style="color: white;">
+<select name="tanggal"><option>1/01/2018</option><option>2/01/2018</option><option>3/01/2018</option><option>4/01/2018</option><option>5/01/2018</option><option selected="selected">30/01/2018</option></select>
+</span><span style="color: white;"></span><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><span style="color: white; font-weight: bold;">
+&nbsp;</span></font><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><span style="color: white; font-weight: bold;">&nbsp;</span></font><font style="background-color: rgb(51, 51, 255); color: black;" size="-1">&nbsp;
+<button name="Search" class="button">SEARCH</button></font>
+<button name="Search" class="button">Input
+New Kategori</button>
+<br>
+<br>
+<div class="navbar"><span style="color: white;">
+</span><span style="color: white;">&nbsp;
+</span><br>
+</div>
+</form>
+<br>
+<div id="rancangan 2_payroll_10031" x:publishsource="Excel" align="center">
+<table style="border-collapse: collapse; table-layout: fixed; width: 767pt;" border="0" cellpadding="0" cellspacing="0" width="1023">
+<col style="width: 69pt;" width="92">
+<col style="width: 293pt;" width="391">
+<col style="width: 82pt;" width="109">
+<col style="width: 99pt;" width="132">
+<col style="width: 89pt;" width="119">
+<col style="width: 135pt;" width="180">
+<tbody><tr style="height: 15.75pt;" height="21">
+<td class="xl6410031" style="height: 15.75pt; width: 69pt;" height="21" width="92">id_jabatan</td>
+<td class="xl6510031" style="width: 293pt;" width="391">Jabatan</td>
+<td class="xl6510031" style="width: 82pt;" width="109">Honor</td>
+<td class="xl6510031" style="width: 99pt;" width="132">Honor Tambahan</td>
+<td class="xl6810031" style="width: 89pt;" width="119">total</td>
+<td class="xl7010031" style="width: 135pt;" width="180">Action</td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Ka. Tatalaksana</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>6,000,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>6,000,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Kasubag Keuangan</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>5,000,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>5,000,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Staf Keuangan</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Staf Keuangan</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Staf Kepegawaian</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Staf Akademik</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 26.25pt;" height="35">
+<td class="xl6310031" style="height: 26.25pt; width: 69pt;" height="35" width="92">7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Wakil Ka. Tatalaksana, Staf
+Kemahasiswaan dan Staf Pusat Olah Data dan Ph. Koordinator K3</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>5,000,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>5,000,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Staf Kemahasiswaan</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">9.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Staf Perpustakaan dan
+Sekretaris</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">10.&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Staf Perpustakaan dan
+Sekretaris</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">11.&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Petugas Umum dan Pengawas
+Laboratorium</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">12.&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Anggota K3 dan Korlap
+Kebersihan</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">13.&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Anggota K3</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">14.&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Anggota K3</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">15.&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Anggota K3</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">16.&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Anggota K3</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">17.&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Anggota K3, Lab APK, Lab
+Kom dan Lab CAD</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">18.&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Anggota K3, Lift</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 26.25pt;" height="35">
+<td class="xl6310031" style="height: 26.25pt; width: 69pt;" height="35" width="92">19.&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Anggota K3, Alat
+Komunikasi, Alat Kesenian, dan Hasil Karya Prodi T. Mesin</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">20.&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Petugas Genset, Toolman
+Mesin</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15.75pt;" height="21">
+<td class="xl6310031" style="height: 15.75pt; width: 69pt;" height="21" width="92">21.&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Koordinator Pusat Olah Data</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 26.25pt;" height="35">
+<td class="xl6310031" style="height: 26.25pt; width: 69pt;" height="35" width="92">22.&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Anggota K3 dan Staf
+Pemeliharaan Instalasi Listrik, Peralatan Elektronik dan Genset</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 26.25pt;" height="35">
+<td class="xl6310031" style="height: 26.25pt; width: 69pt;" height="35" width="92">23.&nbsp;
+&nbsp;</td>
+<td class="xl6610031" style="width: 293pt;" width="391">Anggota K3</td>
+<td class="xl6710031" style="width: 82pt;" width="109"><span style=""> </span>IDR<span style="">        
+</span>4,500,000 </td>
+<td class="xl6710031" style="width: 99pt;" width="132"><span style=""> </span>IDR<span style="">                                </span>- </td>
+<td class="xl6910031" style="width: 89pt;" width="119"><span style=""> </span>IDR<span style="">             </span>4,500,000 </td>
+<td class="xl7110031" style="border-top: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp; &nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<!--[if supportMisalignedColumns]-->
+<tr style="display: none;" height="0">
+<td style="width: 69pt;" width="92"></td>
+<td style="width: 293pt;" width="391"></td>
+<td style="width: 82pt;" width="109"></td>
+<td style="width: 99pt;" width="132"></td>
+<td style="width: 89pt;" width="119"></td>
+<td style="width: 135pt;" width="180"></td>
+</tr>
+<!--[endif]-->
+</tbody></table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</body></html>

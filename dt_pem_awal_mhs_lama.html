@@ -1,0 +1,2243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>admin_stt</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+overflow: hidden;
+background-color: #333;
+}
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.dropdown {
+float: left;
+overflow: hidden;
+}
+.dropdown .dropbtn {
+font-size: 16px; border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: red;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+</style><!--style Pembayaran PERSEMESTER-->
+<style id="rancangan 2_payroll_7667_Styles">
+<!--table
+{mso-displayed-decimal-separator:"\.";
+mso-displayed-thousand-separator:"\,";}
+.xl157667
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:bottom;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl657667
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl667667
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:bottom;
+border-top:none;
+border-right:.5pt solid windowtext;
+border-bottom:.5pt solid windowtext;
+border-left:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl677667
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl687667
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl697667
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:bottom;
+border-top:none;
+border-right:.5pt solid windowtext;
+border-bottom:.5pt solid windowtext;
+border-left:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl707667
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:middle;
+border-top:none;
+border-right:.5pt solid windowtext;
+border-bottom:.5pt solid windowtext;
+border-left:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl717667
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:middle;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl727667
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:middle;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl737667
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:"dd\/mm\/yyyy\;\@";
+text-align:center;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl747667
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:bottom;
+border-top:.5pt solid windowtext;
+border-right:none;
+border-bottom:.5pt solid windowtext;
+border-left:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl757667
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:"\#\,\#\#0";
+text-align:center;
+vertical-align:middle;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl767667
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:"\#\,\#\#0";
+text-align:center;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl777667
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:"\#\,\#\#0";
+text-align:center;
+vertical-align:bottom;
+border-top:.5pt solid windowtext;
+border-right:none;
+border-bottom:.5pt solid windowtext;
+border-left:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+-->
+</style><!--style tabel utama-->
+<style id="rancangan 2_payroll_6161_Styles">
+<!--table
+{mso-displayed-decimal-separator:"\,";
+mso-displayed-thousand-separator:"\.";}
+.xl156161
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:bottom;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl636161
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl646161
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:bottom;
+border-top:none;
+border-right:.5pt solid windowtext;
+border-bottom:.5pt solid windowtext;
+border-left:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl656161
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl666161
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl676161
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:bottom;
+border-top:none;
+border-right:.5pt solid windowtext;
+border-bottom:.5pt solid windowtext;
+border-left:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl686161
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:middle;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl696161
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:middle;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl706161
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:"dd\/mm\/yyyy\;\@";
+text-align:center;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl716161
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:bottom;
+border-top:.5pt solid windowtext;
+border-right:none;
+border-bottom:.5pt solid windowtext;
+border-left:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl726161
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:"\#\,\#\#0";
+text-align:center;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl736161
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:"\#\,\#\#0";
+text-align:center;
+vertical-align:bottom;
+border-top:.5pt solid windowtext;
+border-right:none;
+border-bottom:.5pt solid windowtext;
+border-left:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+-->
+</style><end of="" style=""></end>
+</head>
+<body style="color: black; background-color: rgb(255, 255, 255);" alink="#000099" link="#000099" vlink="#990099">
+<table style="text-align: left; width: 1348px; height: 578px;" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td style="background-color: rgb(51, 102, 255);">
+<div style="text-align: right;"></div>
+<table style="text-align: left; margin-left: 0px; width: 1633px; height: 120px;" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td style="text-align: right; width: 125px;"><img style="width: 129px; height: 104px;" alt="" src="image/aad9fe20-b6c1-4f0c-9aee-e43867fc9a5e.jpg"></td>
+<td style="background-color: white; width: 1488px;">
+<div style="margin-left: 280px;"><big><big><big><span style="font-weight: bold;">&nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp;WASTUKANCANA</span></big></big></big><br style="font-weight: bold;">
+<span style="font-weight: bold;">&nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; PAYROLL SYSTEM</span></div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="navbar"><a href="index.html">Home</a>
+<a href="pemasukan.html">Kelola Pemasukan</a>
+<a href="honor.html">Kelola Honor</a>
+<a href="jwdal_kuliah.html">Kelola Jadwal Kuliah</a>
+<a href="kategori.html">Kelola Kategori</a>
+<a href="dosen.html">Dosen dan Tatalaksana</a>
+<a href="kehadiran.html">Kelola Kehadiran</a>
+<a href="pinjaman.html">Kelola Pinjaman</a>
+<a href="laporan.html">Laporan Keuangan</a>
+</div>
+<table ="">
+</table>
+<br>
+<div style="text-align: center; background-color: white;"><span style="font-weight: bold;"><br>
+DATA PEMBAYARAN SEMESTER AWAL KULIAH</span><br>
+<span style="font-weight: bold;">Mahasiswa Lama</span><br>
+<div style="text-align: left;"><span style="font-weight: bold;">Tabel Sementara</span><br>
+<br>
+</div>
+<div style="text-align: justify;">
+<div style="text-align: left;"><button> <a href="b_per_smester.html">Kembali</a></button>
+<br>
+<br>
+</div>
+<form class="example" action="/action_page.php"><input placeholder="Search.." name="search" type="text"><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"> &nbsp;<span style="font-weight: bold; color: white;"></span></font><span style="color: white;"></span><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><span style="color: white; font-weight: bold;">Proses&nbsp;Semester
+Sebelumnya
+&nbsp;</span></font>
+<select name="semester"><option selected="selected">2018/1</option><option>2018/2</option><option>2017/1</option><option>2017/2</option><option>2016/1</option><option>2016/2</option></select>
+<font style="background-color: rgb(51, 51, 255); color: black;" size="-1">&nbsp;&nbsp;
+<button name="Search" class="button">SEARCH</button>
+&nbsp;<span style="color: white; font-weight: bold;">Proses
+Semester
+&nbsp;Berikutnya</span>&nbsp;</font>
+<select name="semester"><option selected="selected">2018/1</option><option>2018/2</option><option>2017/1</option><option>2017/2</option><option>2016/1</option><option>2016/2</option></select>
+<font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><span style="color: white; font-weight: bold;">&nbsp;</span></font><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><span style="color: white; font-weight: bold;">Status&nbsp;</span>
+<select name="status"><option>Lunas</option><option selected="selected">Belum Lunas</option></select>
+<button name="Search" class="button">SAVE</button></font>&nbsp;
+<br>
+<br>
+<div class="navbar"><span style="color: white;">
+</span><span style="color: white;">&nbsp;
+<span style="font-weight: bold;">Semester</span>&nbsp;&nbsp;</span>
+<select name="semester"><option selected="selected">2018/1</option><option>2018/2</option><option>2019/1</option><option>2019/1</option></select>
+<span style="color: white;">&nbsp;&nbsp;</span><button name="Search" class="button">Upload MHS Baru</button>
+&nbsp;<span style="color: white;"><span style="font-weight: bold;"> &nbsp; Semester</span>
+&nbsp;</span>
+<select name="semester"><option selected="selected">2018/1</option><option>2018/2</option><option>2019/1</option><option>2019/1</option></select>
+&nbsp;<button name="Search" class="button">Upload
+MHS Cuti</button>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+<select name="semester"><option selected="selected">2018/1</option><option>2018/2</option><option>2017/1</option><option>2017/2</option><option>2016/1</option><option>2016/2</option></select>
+<button style="background-color: rgb(255, 102, 102); color: white;" name="Search" class="button">DELETE ALL</button>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: white; font-weight: bold;">Proses Semester
+Awal Kuliah</span> <font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><button name="Search" class="button">PROCESS</button></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;
+</div>
+</form>
+</div>
+<br>
+<table style="text-align: left; background-color: white; width: 1296px; height: 31px;" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td>
+<div id="rancangan 2_payroll_6161" x:publishsource="Excel" align="center">
+<table style="border-collapse: collapse; table-layout: fixed; width: 1127pt;" border="0" cellpadding="0" cellspacing="0" width="1500">
+<col style="width: 75pt;" width="100">
+<col style="width: 70pt;" width="93"><col style="width: 106pt;" width="141"><col style="width: 89pt;" width="119"><col style="width: 92pt;" width="123"><col style="width: 60pt;" width="80"><col style="width: 100pt;" width="133"><col style="width: 83pt;" width="110"><col class="xl156161" span="3" style="width: 83pt;" width="110"> <col style="width: 68pt;" width="91">
+<col style="width: 135pt;" width="180"><tbody>
+<tr style="height: 15pt;" height="20">
+<td class="xl636161" style="height: 15pt; width: 75pt;" height="20" width="100">id_b_kuliah</td>
+<td class="xl636161" style="border-left: medium none; width: 70pt;" width="93">nim</td>
+<td class="xl636161" style="border-left: medium none; width: 106pt;" width="141">nama
+mahasiswa</td>
+<td class="xl636161" style="border-left: medium none; width: 89pt;" width="119">tahun
+angkatan</td>
+<td class="xl636161" style="border-left: medium none; width: 92pt;" width="123">jurusan</td>
+<td class="xl636161" style="border-left: medium none; width: 60pt;" width="80">semester</td>
+<td class="xl636161" style="border-left: medium none; width: 100pt;" width="133">Kemahasiswaan</td>
+<td class="xl716161" style="border-left: medium none; width: 83pt;" width="110">awal_smester</td>
+<td class="xl716161" style="width: 83pt;" width="110">Total</td>
+<td class="xl716161" style="width: 83pt;" width="110">Tanggal</td>
+<td class="xl636161" style="width: 83pt;" width="110">status_ikatan</td>
+<td class="xl636161" style="border-left: medium none; width: 68pt;" width="91">status</td>
+<td class="xl636161" style="border-left: medium none; width: 135pt;" width="180">Action</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1411</td>
+<td class="xl676161" style="border-left: medium none;">20170001</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">DEDEN
+SANUSI</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl646161" style="border-left: medium none;">teknik
+informatika</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1412</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170002</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">M
+Zuldy</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+informatika</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1413</td>
+<td class="xl676161" style="border-left: medium none;">20170003</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">RAHMAN
+HAKIM</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+mesin</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1414</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170004</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">Ridwan
+Ati</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+mesin</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1415</td>
+<td class="xl676161" style="border-left: medium none;">20170005</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">SUSI
+LASTRI</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+industri</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1416</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170006</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">Ervin
+Muhamad</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+industri</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1417</td>
+<td class="xl676161" style="border-left: medium none;">20170007</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">ARIF
+HAKIM</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+tekstil</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1418</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170008</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">Muhammad
+Andi</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+tekstil</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1419</td>
+<td class="xl676161" style="border-left: medium none;">20170009</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">Iqbal
+Ramadhan</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">manajemen
+industri</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.250.000</td>
+<td class="xl736161" style="border-top: medium none;">1.450.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1420</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170010</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">ARIF
+HAKIM<span style="">&nbsp;</span></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">manajemen
+industri</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.250.000</td>
+<td class="xl736161" style="border-top: medium none;">1.450.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1421</td>
+<td class="xl676161" style="border-left: medium none;">20170001</td>
+<td class="xl646161" style="border-left: medium none;">Metta
+Septiani</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl646161" style="border-left: medium none;">teknik
+informatika</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1422</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170002</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">Ita
+Novitasari Utami</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+informatika</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1423</td>
+<td class="xl676161" style="border-left: medium none;">20170003</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">Ricky
+Permana</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+mesin</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1424</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170004</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">Pravita
+Indriani</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+mesin</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1425</td>
+<td class="xl676161" style="border-left: medium none;">20170005</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">Nita
+Rahmayani</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+industri</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1426</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170006</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">Dave
+Hendrik</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+industri</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1427</td>
+<td class="xl676161" style="border-left: medium none;">20170007</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">Cepy
+Wahyudin</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+tekstil</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1428</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170008</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">Taufik
+Nugraha</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+tekstil</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1429</td>
+<td class="xl676161" style="border-left: medium none;">20170009</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">Allya
+Zahra</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">manajemen
+industri</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.250.000</td>
+<td class="xl736161" style="border-top: medium none;">1.450.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1430</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170010</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">Mazaya
+Lareina</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">manajemen
+industri</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.250.000</td>
+<td class="xl736161" style="border-top: medium none;">1.450.000</td>
+<td class="xl706161" style="border-top: medium none;"></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Belum Lunas</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<!--[if supportMisalignedColumns]--> <tr style="display: none;" height="0">
+<td style="width: 75pt;" width="100"></td>
+<td style="width: 70pt;" width="93"></td>
+<td style="width: 106pt;" width="141"></td>
+<td style="width: 89pt;" width="119"></td>
+<td style="width: 92pt;" width="123"></td>
+<td style="width: 60pt;" width="80"></td>
+<td style="width: 100pt;" width="133"></td>
+<td style="width: 83pt;" width="110"></td>
+<td style="width: 83pt;" width="110"></td>
+<td style="width: 83pt;" width="110"></td>
+<td style="width: 83pt;" width="110"></td>
+<td style="width: 68pt;" width="91"></td>
+<td style="width: 135pt;" width="180"></td>
+</tr>
+<!--[endif]-->
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<br>
+<div style="text-align: center; background-color: white;"><span style="font-weight: bold;"><br>
+DATA PEMBAYARAN SEMESTER AWAL KULIAH</span><br>
+<span style="font-weight: bold;">Mahasiswa Lama<br>
+</span>
+<div style="text-align: left;"><span style="font-weight: bold;"></span>Tabel Utama<br>
+<br>
+<span style="font-weight: bold;"></span></div>
+<div style="text-align: justify;">
+<div style="text-align: left;"><button> <a href="b_per_smester.html">Kembali</a></button>
+<br>
+<br>
+</div>
+<form class="example" action="/action_page.php"><input placeholder="Search.." name="search" type="text"><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"> &nbsp;<span style="font-weight: bold; color: white;"></span></font><span style="color: white;"></span><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><span style="color: white; font-weight: bold;">Proses&nbsp;Semester
+Sebelumnya
+&nbsp;</span></font>
+<select name="semester"><option selected="selected">2018/1</option><option>2018/2</option><option>2017/1</option><option>2017/2</option><option>2016/1</option><option>2016/2</option></select>
+<font style="background-color: rgb(51, 51, 255); color: black;" size="-1">&nbsp;&nbsp;
+<button name="Search" class="button">SEARCH</button>
+&nbsp;<span style="color: white; font-weight: bold;">Proses
+Semester
+&nbsp;Berikutnya</span>&nbsp;</font>
+<select name="semester"><option selected="selected">2018/1</option><option>2018/2</option><option>2017/1</option><option>2017/2</option><option>2016/1</option><option>2016/2</option></select>
+<font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><span style="color: white; font-weight: bold;">&nbsp;</span></font><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><span style="color: white; font-weight: bold;">Status&nbsp;</span>
+<select name="status"><option>Lunas</option><option selected="selected">Belum Lunas</option></select>
+<button name="Search" class="button">SAVE</button></font>&nbsp;
+<br>
+<br>
+<div class="navbar"><span style="color: white;">
+</span><span style="color: white;">&nbsp;
+<span style="font-weight: bold;">Semester</span>&nbsp;&nbsp;</span>
+<select name="semester"><option selected="selected">2018/1</option><option>2018/2</option><option>2019/1</option><option>2019/1</option></select>
+<span style="color: white;">&nbsp;&nbsp;</span><button name="Search" class="button">Upload MHS Baru</button>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp; <span style="color: white; font-weight: bold;">Proses Semester
+Awal Kuliah</span> <font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><button name="Search" class="button">PROCESS</button></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;
+</div>
+</form>
+</div>
+<br>
+<table style="text-align: left; background-color: white; width: 1296px; height: 31px;" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td>
+<div id="rancangan 2_payroll_6161" x:publishsource="Excel" align="center">
+<table style="border-collapse: collapse; table-layout: fixed; width: 1127pt;" border="0" cellpadding="0" cellspacing="0" width="1500">
+<col style="width: 75pt;" width="100">
+<col style="width: 70pt;" width="93"><col style="width: 106pt;" width="141"><col style="width: 89pt;" width="119"><col style="width: 92pt;" width="123"><col style="width: 60pt;" width="80"><col style="width: 100pt;" width="133"><col style="width: 83pt;" width="110"><col class="xl156161" span="3" style="width: 83pt;" width="110"> <col style="width: 68pt;" width="91">
+<col style="width: 135pt;" width="180"><tbody>
+<tr style="height: 15pt;" height="20">
+<td class="xl636161" style="height: 15pt; width: 75pt;" height="20" width="100">id_b_kuliah</td>
+<td class="xl636161" style="border-left: medium none; width: 70pt;" width="93">nim</td>
+<td class="xl636161" style="border-left: medium none; width: 106pt;" width="141">nama
+mahasiswa</td>
+<td class="xl636161" style="border-left: medium none; width: 89pt;" width="119">tahun
+angkatan</td>
+<td class="xl636161" style="border-left: medium none; width: 92pt;" width="123">jurusan</td>
+<td class="xl636161" style="border-left: medium none; width: 60pt;" width="80">semester</td>
+<td class="xl636161" style="border-left: medium none; width: 100pt;" width="133">Kemahasiswaan</td>
+<td class="xl716161" style="border-left: medium none; width: 83pt;" width="110">awal_smester</td>
+<td class="xl716161" style="width: 83pt;" width="110">Total</td>
+<td class="xl716161" style="width: 83pt;" width="110">Tanggal</td>
+<td class="xl636161" style="width: 83pt;" width="110">status_ikatan</td>
+<td class="xl636161" style="border-left: medium none; width: 68pt;" width="91">status</td>
+<td class="xl636161" style="border-left: medium none; width: 135pt;" width="180">Action</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1411</td>
+<td class="xl676161" style="border-left: medium none;">20170001</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">DEDEN
+SANUSI</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl646161" style="border-left: medium none;">teknik
+informatika</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/2</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;">02/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1412</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170002</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">M
+Zuldy</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+informatika</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/2</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;">03/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1413</td>
+<td class="xl676161" style="border-left: medium none;">20170003</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">RAHMAN
+HAKIM</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+mesin</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/2</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;">04/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1414</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170004</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">Ridwan
+Ati</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+mesin</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/2</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;">05/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1415</td>
+<td class="xl676161" style="border-left: medium none;">20170005</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">SUSI
+LASTRI</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+industri</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/2</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;">06/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1416</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170006</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">Ervin
+Muhamad</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+industri</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/2</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;">07/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1417</td>
+<td class="xl676161" style="border-left: medium none;">20170007</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">ARIF
+HAKIM</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+tekstil</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/2</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;">08/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1418</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170008</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">Muhammad
+Andi</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+tekstil</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/2</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;">09/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1419</td>
+<td class="xl676161" style="border-left: medium none;">20170009</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">Iqbal
+Ramadhan</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">manajemen
+industri</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.250.000</td>
+<td class="xl736161" style="border-top: medium none;">1.450.000</td>
+<td class="xl706161" style="border-top: medium none;">10/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1420</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170010</td>
+<td class="xl696161" style="border-top: medium none; border-left: medium none;">ARIF
+HAKIM<span style="">&nbsp;</span></td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">manajemen
+industri</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.250.000</td>
+<td class="xl736161" style="border-top: medium none;">1.450.000</td>
+<td class="xl706161" style="border-top: medium none;">11/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">Aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1421</td>
+<td class="xl676161" style="border-left: medium none;">20170001</td>
+<td class="xl646161" style="border-left: medium none;">Metta
+Septiani</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl646161" style="border-left: medium none;">teknik
+informatika</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;">02/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1422</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170002</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">Ita
+Novitasari Utami</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+informatika</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;">03/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1423</td>
+<td class="xl676161" style="border-left: medium none;">20170003</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">Ricky
+Permana</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+mesin</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;">04/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1424</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170004</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">Pravita
+Indriani</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+mesin</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;">05/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1425</td>
+<td class="xl676161" style="border-left: medium none;">20170005</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">Nita
+Rahmayani</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+industri</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;">06/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1426</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170006</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">Dave
+Hendrik</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+industri</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;">07/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1427</td>
+<td class="xl676161" style="border-left: medium none;">20170007</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">Cepy
+Wahyudin</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+tekstil</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;">08/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1428</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170008</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">Taufik
+Nugraha</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">teknik
+tekstil</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.750.000</td>
+<td class="xl736161" style="border-top: medium none;">1.950.000</td>
+<td class="xl706161" style="border-top: medium none;">09/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1429</td>
+<td class="xl676161" style="border-left: medium none;">20170009</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">Allya
+Zahra</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">manajemen
+industri</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.250.000</td>
+<td class="xl736161" style="border-top: medium none;">1.450.000</td>
+<td class="xl706161" style="border-top: medium none;">10/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl656161" style="border-top: medium none; height: 15pt;" height="20">1430</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">20170010</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">Mazaya
+Lareina</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">manajemen
+industri</td>
+<td class="xl686161" style="border-top: medium none; border-left: medium none;">2017/1</td>
+<td class="xl726161" style="border-top: medium none; border-left: medium none;">200.000</td>
+<td class="xl736161" style="border-top: medium none; border-left: medium none;">1.250.000</td>
+<td class="xl736161" style="border-top: medium none;">1.450.000</td>
+<td class="xl706161" style="border-top: medium none;">11/01/2018</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl656161" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl666161" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<!--[if supportMisalignedColumns]--> <tr style="display: none;" height="0">
+<td style="width: 75pt;" width="100"></td>
+<td style="width: 70pt;" width="93"></td>
+<td style="width: 106pt;" width="141"></td>
+<td style="width: 89pt;" width="119"></td>
+<td style="width: 92pt;" width="123"></td>
+<td style="width: 60pt;" width="80"></td>
+<td style="width: 100pt;" width="133"></td>
+<td style="width: 83pt;" width="110"></td>
+<td style="width: 83pt;" width="110"></td>
+<td style="width: 83pt;" width="110"></td>
+<td style="width: 83pt;" width="110"></td>
+<td style="width: 68pt;" width="91"></td>
+<td style="width: 135pt;" width="180"></td>
+</tr>
+<!--[endif]-->
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<br>
+<div style="text-align: center; background-color: white;"><span style="font-weight: bold;"><br>
+DATA PEMBAYARAN SEMESTER AWAL KULIAH</span><br>
+<br>
+<div style="text-align: justify;">
+<div style="text-align: left;"><button> <a href="b_per_smester.html">Kembali</a></button>
+<br>
+<br>
+</div>
+<form class="example" action="/action_page.php"><input placeholder="Search.." name="search" type="text"><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"> &nbsp;<span style="font-weight: bold; color: white;"></span></font><span style="color: white;"></span><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><span style="color: white; font-weight: bold;">Proses&nbsp;Semester
+Sebelumnya
+&nbsp;</span></font>
+<select name="semester"><option selected="selected">2018/1</option><option>2018/2</option><option>2017/1</option><option>2017/2</option><option>2016/1</option><option>2016/2</option></select>
+<font style="background-color: rgb(51, 51, 255); color: black;" size="-1">&nbsp;&nbsp;
+<button name="Search" class="button">SEARCH</button>
+&nbsp;<span style="color: white; font-weight: bold;">Proses
+Semester
+&nbsp;Berikutnya</span>&nbsp;</font>
+<select name="semester"><option selected="selected">2018/1</option><option>2018/2</option><option>2017/1</option><option>2017/2</option><option>2016/1</option><option>2016/2</option></select>
+<font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><span style="color: white; font-weight: bold;">&nbsp;</span></font><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><span style="color: white; font-weight: bold;">Status&nbsp;</span>
+<select name="status"><option>Lunas</option><option selected="selected">Belum Lunas</option></select>
+<button name="Search" class="button">SAVE</button></font>&nbsp;
+<br>
+<br>
+<div class="navbar"><span style="color: white;">
+</span><span style="color: white;">&nbsp;
+<span style="font-weight: bold;">Semester</span>&nbsp;&nbsp;</span>
+<select name="semester"><option selected="selected">2018/1</option><option>2018/2</option><option>2019/1</option><option>2019/1</option></select>
+<span style="color: white;">&nbsp;&nbsp;</span><button name="Search" class="button">Upload MHS Baru</button>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+<select name="semester"><option selected="selected">2018/1</option><option>2018/2</option><option>2017/1</option><option>2017/2</option><option>2016/1</option><option>2016/2</option></select>
+<button style="background-color: rgb(255, 102, 102); color: white;" name="Search" class="button">DELETE ALL</button>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: white; font-weight: bold;">Proses Semester
+Awal Kuliah</span> <font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><button name="Search" class="button">PROCESS</button></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;
+</div>
+</form>
+</div>
+<br>
+<table style="text-align: left; background-color: white; width: 1296px; height: 31px;" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td>
+<div id="rancangan 2_payroll_7667" x:publishsource="Excel" align="center">
+<table style="border-collapse: collapse; table-layout: fixed; width: 1127pt;" border="0" cellpadding="0" cellspacing="0" width="1500">
+<col style="width: 75pt;" width="100">
+<col style="width: 70pt;" width="93"><col style="width: 106pt;" width="141"><col style="width: 89pt;" width="119"><col style="width: 92pt;" width="123"><col style="width: 60pt;" width="80"><col style="width: 100pt;" width="133"><col style="width: 83pt;" width="110"><col class="xl157667" span="3" style="width: 83pt;" width="110"> <col style="width: 68pt;" width="91"><col style="width: 135pt;" width="180"><tbody>
+<tr style="height: 15pt;" height="20">
+<td class="xl657667" style="height: 15pt; width: 75pt;" height="20" width="100">id_b_kuliah</td>
+<td class="xl657667" style="border-left: medium none; width: 70pt;" width="93">nim</td>
+<td class="xl657667" style="border-left: medium none; width: 106pt;" width="141">nama
+mahasiswa</td>
+<td class="xl657667" style="border-left: medium none; width: 89pt;" width="119">tahun
+angkatan</td>
+<td class="xl657667" style="border-left: medium none; width: 92pt;" width="123">jurusan</td>
+<td class="xl657667" style="border-left: medium none; width: 60pt;" width="80">semester</td>
+<td class="xl657667" style="border-left: medium none; width: 100pt;" width="133">Kemahasiswaan</td>
+<td class="xl747667" style="border-left: medium none; width: 83pt;" width="110">awal_smester</td>
+<td class="xl747667" style="width: 83pt;" width="110">Total</td>
+<td class="xl747667" style="width: 83pt;" width="110">tanggal</td>
+<td class="xl657667" style="width: 83pt;" width="110">status_ikatan</td>
+<td class="xl657667" style="border-left: medium none; width: 68pt;" width="91">status</td>
+<td class="xl657667" style="border-left: medium none; width: 135pt;" width="180">Action</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl697667" style="height: 15pt;" height="20">1401</td>
+<td class="xl697667" style="border-left: medium none;">20170001</td>
+<td class="xl667667" style="border-left: medium none;">Metta
+Septiani</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2018</td>
+<td class="xl667667" style="border-left: medium none;">teknik
+informatika</td>
+<td class="xl707667" style="border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,750,000</td>
+<td class="xl757667" style="border-top: medium none;">1,950,000</td>
+<td class="xl737667" style="border-top: medium none; border-left: medium none;">02-01-2018</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1402</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">20170002</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">Ita
+Novitasari Utami</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2018</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+informatika</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,750,000</td>
+<td class="xl757667" style="border-top: medium none;">1,950,000</td>
+<td class="xl737667" style="border-top: medium none; border-left: medium none;">03-01-2018</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1403</td>
+<td class="xl697667" style="border-left: medium none;">20170003</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">Ricky
+Permana</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2018</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+mesin</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,750,000</td>
+<td class="xl757667" style="border-top: medium none;">1,950,000</td>
+<td class="xl737667" style="border-top: medium none; border-left: medium none;">04-01-2018</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1404</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">20170004</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">Pravita
+Indriani</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2018</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+mesin</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,750,000</td>
+<td class="xl757667" style="border-top: medium none;">1,950,000</td>
+<td class="xl737667" style="border-top: medium none; border-left: medium none;">05-01-2018</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1405</td>
+<td class="xl697667" style="border-left: medium none;">20170005</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">Nita
+Rahmayani</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2018</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+industri</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,750,000</td>
+<td class="xl757667" style="border-top: medium none;">1,950,000</td>
+<td class="xl737667" style="border-top: medium none; border-left: medium none;">06-01-2018</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1406</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">20170006</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">Dave
+Hendrik</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2018</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+industri</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,750,000</td>
+<td class="xl757667" style="border-top: medium none;">1,950,000</td>
+<td class="xl737667" style="border-top: medium none; border-left: medium none;">07-01-2018</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1407</td>
+<td class="xl697667" style="border-left: medium none;">20170007</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">Cepy
+Wahyudin</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2018</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+tekstil</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,750,000</td>
+<td class="xl757667" style="border-top: medium none;">1,950,000</td>
+<td class="xl737667" style="border-top: medium none; border-left: medium none;">08-01-2018</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1408</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">20170008</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">Taufik
+Nugraha</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2018</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+tekstil</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,750,000</td>
+<td class="xl757667" style="border-top: medium none;">1,950,000</td>
+<td class="xl737667" style="border-top: medium none; border-left: medium none;">09-01-2018</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1409</td>
+<td class="xl697667" style="border-left: medium none;">20170009</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">Allya
+Zahra</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2018</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">manajemen
+industri</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,250,000</td>
+<td class="xl757667" style="border-top: medium none;">1,450,000</td>
+<td class="xl737667" style="border-top: medium none; border-left: medium none;">10-01-2018</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1410</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">20170010</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">Mazaya
+Lareina</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2018</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">manajemen
+industri</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,250,000</td>
+<td class="xl757667" style="border-top: medium none;">1,450,000</td>
+<td class="xl737667" style="border-top: medium none; border-left: medium none;">11-01-2018</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">LUNAS</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1411</td>
+<td class="xl697667" style="border-left: medium none;">20170001</td>
+<td class="xl727667" style="border-top: medium none; border-left: medium none;">DEDEN
+SANUSI</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl667667" style="border-left: medium none;">teknik
+informatika</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,500,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,700,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1412</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">20170002</td>
+<td class="xl727667" style="border-top: medium none; border-left: medium none;">M
+Zuldy</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+informatika</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,500,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,700,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1413</td>
+<td class="xl697667" style="border-left: medium none;">20170003</td>
+<td class="xl727667" style="border-top: medium none; border-left: medium none;">RAHMAN
+HAKIM</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+mesin</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,500,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,700,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1414</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">20170004</td>
+<td class="xl727667" style="border-top: medium none; border-left: medium none;">Ridwan
+Ati</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+mesin</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,500,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,700,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1415</td>
+<td class="xl697667" style="border-left: medium none;">20170005</td>
+<td class="xl727667" style="border-top: medium none; border-left: medium none;">SUSI
+LASTRI</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+industri</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,500,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,700,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1416</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">20170006</td>
+<td class="xl727667" style="border-top: medium none; border-left: medium none;">Ervin
+Muhamad</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+industri</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,500,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,700,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1417</td>
+<td class="xl697667" style="border-left: medium none;">20170007</td>
+<td class="xl727667" style="border-top: medium none; border-left: medium none;">ARIF
+HAKIM</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+tekstil</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,500,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,700,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1418</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">20170008</td>
+<td class="xl727667" style="border-top: medium none; border-left: medium none;">Muhammad
+Andi</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+tekstil</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,500,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,700,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1419</td>
+<td class="xl697667" style="border-left: medium none;">20170009</td>
+<td class="xl727667" style="border-top: medium none; border-left: medium none;">Iqbal
+Ramadhan</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">manajemen
+industri</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,000,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,200,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1420</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">20170010</td>
+<td class="xl727667" style="border-top: medium none; border-left: medium none;">ARIF
+HAKIM<span style="">&nbsp;</span></td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2017</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">manajemen
+industri</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,000,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,200,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1421</td>
+<td class="xl697667" style="border-left: medium none;">20170001</td>
+<td class="xl667667" style="border-left: medium none;">Metta
+Septiani</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl667667" style="border-left: medium none;">teknik
+informatika</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,500,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,700,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1422</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">20170002</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">Ita
+Novitasari Utami</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+informatika</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,500,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,700,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1423</td>
+<td class="xl697667" style="border-left: medium none;">20170003</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">Ricky
+Permana</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+mesin</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,500,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,700,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1424</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">20170004</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">Pravita
+Indriani</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+mesin</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,500,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,700,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1425</td>
+<td class="xl697667" style="border-left: medium none;">20170005</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">Nita
+Rahmayani</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+industri</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,500,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,700,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1426</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">20170006</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">Dave
+Hendrik</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+industri</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,500,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,700,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1427</td>
+<td class="xl697667" style="border-left: medium none;">20170007</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">Cepy
+Wahyudin</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+tekstil</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,500,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,700,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1428</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">20170008</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">Taufik
+Nugraha</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">teknik
+tekstil</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,500,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,700,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1429</td>
+<td class="xl697667" style="border-left: medium none;">20170009</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">Allya
+Zahra</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">manajemen
+industri</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,000,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,200,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl677667" style="border-top: medium none; height: 15pt;" height="20">1430</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">20170010</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">Mazaya
+Lareina</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">2016</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">manajemen
+industri</td>
+<td class="xl717667" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl767667" style="border-top: medium none; border-left: medium none;">200,000</td>
+<td class="xl757667" style="border-top: medium none; border-left: medium none;">1,000,000</td>
+<td class="xl777667" style="border-top: medium none; border-left: medium none;">1,200,000</td>
+<td class="xl737667" style="border-top: medium none;">&nbsp;</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">tidak
+aktif</td>
+<td class="xl677667" style="border-top: medium none; border-left: medium none;">Belum
+Lunas</td>
+<td class="xl687667" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<!--[if supportMisalignedColumns]--> <tr style="display: none;" height="0">
+<td style="width: 75pt;" width="100"></td>
+<td style="width: 70pt;" width="93"></td>
+<td style="width: 106pt;" width="141"></td>
+<td style="width: 89pt;" width="119"></td>
+<td style="width: 92pt;" width="123"></td>
+<td style="width: 60pt;" width="80"></td>
+<td style="width: 100pt;" width="133"></td>
+<td style="width: 83pt;" width="110"></td>
+<td style="width: 83pt;" width="110"></td>
+<td style="width: 83pt;" width="110"></td>
+<td style="width: 83pt;" width="110"></td>
+<td style="width: 68pt;" width="91"></td>
+<td style="width: 135pt;" width="180"></td>
+</tr>
+<!--[endif]-->
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</body></html>

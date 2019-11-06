@@ -1,0 +1,572 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>admin_stt</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+overflow: hidden;
+background-color: #333;
+}
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.dropdown {
+float: left;
+overflow: hidden;
+}
+.dropdown .dropbtn {
+font-size: 16px; border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: red;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+</style><!--STYLE dt_hnr_struktural-->
+<style id="rancangan 2_payroll_19367_Styles">
+<!--table
+{mso-displayed-decimal-separator:"\.";
+mso-displayed-thousand-separator:"\,";}
+.xl1519367
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:bottom;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6319367
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6419367
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:middle;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6519367
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6619367
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:middle;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6719367
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:"Short Date";
+text-align:center;
+vertical-align:middle;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6819367
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:"Times New Roman", serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:middle;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:normal;}
+.xl6919367
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl7019367
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:"_\(\[$IDR\]\\ * \#\,\#\#0_\)\;_\(\[$IDR\]\\ * \\\(\#\,\#\#0\\\)\;_\(\[$IDR\]\\ * \0022-\0022_\)\;_\(\@_\)";
+text-align:general;
+vertical-align:middle;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+-->
+</style>
+</head>
+<body>
+<table style="text-align: left; width: 1348px; height: 578px;" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td style="background-color: rgb(51, 102, 255);">
+<table style="text-align: left; margin-left: 0px; width: 1341px; height: 120px;" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td style="width: 134px;"><img style="width: 129px; height: 104px;" alt="" src="image/aad9fe20-b6c1-4f0c-9aee-e43867fc9a5e.jpg"></td>
+<td style="background-color: white; width: 1200px;">
+<div style="margin-left: 280px;"><big><big><big><span style="font-weight: bold;">&nbsp;WASTUKANCANA</span></big></big></big><br style="font-weight: bold;">
+<span style="font-weight: bold;">&nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp;PAYROLL SYSTEM</span></div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="navbar"><a href="index.html">Home</a>
+<a href="pemasukan.html">Kelola Pemasukan</a>
+<a href="honor.html">Kelola Honor</a>
+<a href="bulanan.html">Kelola Bulanan</a>
+<a href="kategori.html">Kelola Kategori</a>
+<a href="dosen.html">Dosen dan Tatalaksana</a>
+<a href="perkuliahan.html">Kelola Perkuliahan</a>
+<a href="pinjaman.html">Kelola Pinjaman</a>
+<a href="laporan.html">Laporan Keuangan</a>
+</div>
+<table ="">
+</table>
+<br>
+<div style="text-align: center; background-color: white;"><span style="font-weight: bold;"><br>
+DATA INPUT BULANAN JABATAN STRUKTURAL</span><br>
+<div style="text-align: justify;">
+<div style="text-align: left;"></div>
+<form class="example" action="/action_page.php"><input placeholder="Search.." name="search" type="text"><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"> &nbsp;<span style="font-weight: bold; color: white;"> Jabatan</span>
+&nbsp;&nbsp;</font><span style="color: white;"></span><span style="color: white;"></span><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><span style="color: white; font-weight: bold;">
+<select name="jabatan"><option>Ketua</option><option>Wakil Ketua 1</option><option>Wakil Ketua 2</option><option>Wakil Ketua 3</option><option>Staff Wakil Ketua</option><option selected="selected">ALL</option></select>
+&nbsp;&nbsp;</span></font><font style="background-color: rgb(51, 51, 255); color: black;" size="-1">&nbsp;&nbsp;
+<button name="Search" class="button">SEARCH</button>
+</font><br>
+<br>
+<div class="navbar"><span style="color: white;">
+</span><span style="color: white;">&nbsp;
+Tanggal Input&nbsp;
+<select name="tanggal"><option>1/01/2018</option><option>2/01/2018</option><option>3/01/2018</option><option>4/01/2018</option><option>5/01/2018</option><option selected="selected">30/01/2018</option></select>
+Semester &nbsp;</span>
+<select name="semester"><option selected="selected">2018/1</option><option>2018/2</option><option>2019/1</option><option>2019/2</option><option>2020/1</option><option>2020/2</option></select>
+<span style="color: white;">&nbsp;
+Status&nbsp;
+<select name="status"><option>PROCESS</option><option selected="selected">UNPROCESS</option></select>
+<button name="Search" class="button">PROCESS</button>
+<button name="Search" class="button">SAVE</button>
+&nbsp;&nbsp;&nbsp;</span>
+<br>
+</div>
+</form>
+</div>
+<br>
+<table style="text-align: left; background-color: white; width: 1296px; height: 31px;" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td>
+<div id="rancangan 2_payroll_19367" x:publishsource="Excel" align="center">
+<table style="border-collapse: collapse; table-layout: fixed; width: 957pt;" border="0" cellpadding="0" cellspacing="0" width="1273">
+<col style="width: 41pt;" width="55">
+<col style="width: 49pt;" width="65"><col style="width: 62pt;" width="82"><col style="width: 63pt;" width="84"><col style="width: 53pt;" width="71"><col style="width: 83pt;" width="110"><col style="width: 92pt;" width="122"><col style="width: 78pt;" width="104"><col style="width: 94pt;" width="125"><col style="width: 81pt;" width="108"><col style="width: 49pt;" width="65"><col style="width: 77pt;" width="102"><col style="width: 135pt;" width="180"><tbody>
+<tr style="height: 15pt;" height="20">
+<td class="xl6319367" style="height: 15pt; width: 41pt;" height="20" width="55">id_ps</td>
+<td class="xl6319367" style="border-left: medium none; width: 49pt;" width="65">bulan</td>
+<td class="xl6319367" style="border-left: medium none; width: 62pt;" width="82">id_jabatan_st</td>
+<td class="xl6319367" style="border-left: medium none; width: 63pt;" width="84">id_dosen</td>
+<td class="xl6319367" style="border-left: medium none; width: 53pt;" width="71">semester</td>
+<td class="xl6319367" style="border-left: medium none; width: 83pt;" width="110">nama_dosen</td>
+<td class="xl6319367" style="border-left: medium none; width: 92pt;" width="122">jabatan_struktural</td>
+<td class="xl6319367" style="border-left: medium none; width: 78pt;" width="104">tunjangan_jabatan</td>
+<td class="xl6319367" style="border-left: medium none; width: 94pt;" width="125">transport</td>
+<td class="xl6319367" style="border-left: medium none; width: 81pt;" width="108">total_st</td>
+<td class="xl6319367" style="border-left: medium none; width: 49pt;" width="65">tanggal</td>
+<td class="xl6319367" style="border-left: medium none; width: 77pt;" width="102">Status<span style=""> </span></td>
+<td class="xl6319367" style="border-left: medium none; width: 135pt;" width="180">Action</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl6419367" style="border-top: medium none; height: 15pt;" height="20">602</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">1</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">2</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">1112</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl6619367" style="border-top: medium none; border-left: medium none;">RAHMAN
+HAKIM</td>
+<td class="xl6819367" style="border-top: medium none; border-left: medium none; width: 92pt;" width="122">Wakil Ketua 1</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>6,000,000
+</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>5,500,000
+</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>11,000,000
+</td>
+<td class="xl6719367" style="border-top: medium none; border-left: medium none;">30-01-18</td>
+<td class="xl6919367" style="border-top: medium none; border-left: medium none;">UNPROCESS</td>
+<td class="xl6519367" style="border-top: medium none; border-left: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp;
+&nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl6419367" style="border-top: medium none; height: 15pt;" height="20">603</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">1</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">3</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">1113</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl6619367" style="border-top: medium none; border-left: medium none;">SUSI
+LASTRI</td>
+<td class="xl6819367" style="border-top: medium none; border-left: medium none; width: 92pt;" width="122">Wakil Ketua 2</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>6,600,000
+</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>5,000,000
+</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>11,600,000
+</td>
+<td class="xl6719367" style="border-top: medium none; border-left: medium none;">30-01-18</td>
+<td class="xl6919367" style="border-top: medium none; border-left: medium none;">UNPROCESS</td>
+<td class="xl6519367" style="border-top: medium none; border-left: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp;
+&nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl6419367" style="border-top: medium none; height: 15pt;" height="20">604</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">1</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">4</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">1114</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl6619367" style="border-top: medium none; border-left: medium none;">ARIF
+HAKIM</td>
+<td class="xl6819367" style="border-top: medium none; border-left: medium none; width: 92pt;" width="122">Wakil Ketua 3</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>6,000,000
+</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>5,000,000
+</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>11,000,000
+</td>
+<td class="xl6719367" style="border-top: medium none; border-left: medium none;">30-01-18</td>
+<td class="xl6919367" style="border-top: medium none; border-left: medium none;">UNPROCESS</td>
+<td class="xl6519367" style="border-top: medium none; border-left: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp;
+&nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl6419367" style="border-top: medium none; height: 15pt;" height="20">605</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">1</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">5</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">1115</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl6619367" style="border-top: medium none; border-left: medium none;">TOPAN
+TRI</td>
+<td class="xl6819367" style="border-top: medium none; border-left: medium none; width: 92pt;" width="122">Staff Wakil Ketua 3</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>5,500,000
+</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>4,500,000
+</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>10,000,000
+</td>
+<td class="xl6719367" style="border-top: medium none; border-left: medium none;">30-01-18</td>
+<td class="xl6919367" style="border-top: medium none; border-left: medium none;">UNPROCESS</td>
+<td class="xl6519367" style="border-top: medium none; border-left: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp;
+&nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<!--[if supportMisalignedColumns]-->
+<tr style="display: none;" height="0">
+<td style="width: 41pt;" width="55"></td>
+<td style="width: 49pt;" width="65"></td>
+<td style="width: 62pt;" width="82"></td>
+<td style="width: 63pt;" width="84"></td>
+<td style="width: 53pt;" width="71"></td>
+<td style="width: 83pt;" width="110"></td>
+<td style="width: 92pt;" width="122"></td>
+<td style="width: 78pt;" width="104"></td>
+<td style="width: 94pt;" width="125"></td>
+<td style="width: 81pt;" width="108"></td>
+<td style="width: 49pt;" width="65"></td>
+<td style="width: 77pt;" width="102"></td>
+<td style="width: 135pt;" width="180"></td>
+</tr>
+<!--[endif]-->
+</tbody>
+</table>
+</div>
+<div id="rancangan 2_payroll_19367" x:publishsource="Excel" align="center">
+<table style="border-collapse: collapse; table-layout: fixed; width: 957pt;" border="0" cellpadding="0" cellspacing="0" width="1273">
+<col style="width: 41pt;" width="55">
+<col style="width: 49pt;" width="65"><col style="width: 62pt;" width="82"><col style="width: 63pt;" width="84"><col style="width: 53pt;" width="71"><col style="width: 83pt;" width="110"><col style="width: 92pt;" width="122"><col style="width: 78pt;" width="104"><col style="width: 94pt;" width="125"><col style="width: 81pt;" width="108"><col style="width: 49pt;" width="65"><col style="width: 77pt;" width="102"><col style="width: 135pt;" width="180"><tbody>
+<tr style="height: 15pt;" height="20">
+<td class="xl6419367" style="border-top: medium none; height: 15pt;" height="20">602</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">1</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">2</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">1112</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl6619367" style="border-top: medium none; border-left: medium none;">RAHMAN
+HAKIM</td>
+<td class="xl6819367" style="border-top: medium none; border-left: medium none; width: 92pt;" width="122">Wakil Ketua 1</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>6,000,000
+</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>5,000,000
+</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>11,000,000
+</td>
+<td class="xl6719367" style="border-top: medium none; border-left: medium none;">29-12-17</td>
+<td class="xl6919367" style="border-top: medium none; border-left: medium none;">PROCESS</td>
+<td class="xl6519367" style="border-top: medium none; border-left: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp;
+&nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl6419367" style="border-top: medium none; height: 15pt;" height="20">603</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">1</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">3</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">1113</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl6619367" style="border-top: medium none; border-left: medium none;">SUSI
+LASTRI</td>
+<td class="xl6819367" style="border-top: medium none; border-left: medium none; width: 92pt;" width="122">Wakil Ketua 2</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>6,600,000
+</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>5,000,000
+</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>11,600,000
+</td>
+<td class="xl6719367" style="border-top: medium none; border-left: medium none;">29-12-17</td>
+<td class="xl6919367" style="border-top: medium none; border-left: medium none;">PROCESS</td>
+<td class="xl6519367" style="border-top: medium none; border-left: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp;
+&nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl6419367" style="border-top: medium none; height: 15pt;" height="20">604</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">1</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">4</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">1114</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl6619367" style="border-top: medium none; border-left: medium none;">ARIF
+HAKIM</td>
+<td class="xl6819367" style="border-top: medium none; border-left: medium none; width: 92pt;" width="122">Wakil Ketua 3</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>6,000,000
+</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>5,000,000
+</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>11,000,000
+</td>
+<td class="xl6719367" style="border-top: medium none; border-left: medium none;">29-12-17</td>
+<td class="xl6919367" style="border-top: medium none; border-left: medium none;">PROCESS</td>
+<td class="xl6519367" style="border-top: medium none; border-left: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp;
+&nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl6419367" style="border-top: medium none; height: 15pt;" height="20">605</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">1</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">5</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">1115</td>
+<td class="xl6419367" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl6619367" style="border-top: medium none; border-left: medium none;">TOPAN
+TRI</td>
+<td class="xl6819367" style="border-top: medium none; border-left: medium none; width: 92pt;" width="122">Staff Wakil Ketua 3</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>5,500,000
+</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>4,500,000
+</td>
+<td class="xl7019367" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>10,000,000
+</td>
+<td class="xl6719367" style="border-top: medium none; border-left: medium none;">29-12-17</td>
+<td class="xl6919367" style="border-top: medium none; border-left: medium none;">PROCESS</td>
+<td class="xl6519367" style="border-top: medium none; border-left: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp;
+&nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<!--[if supportMisalignedColumns]-->
+<tr style="display: none;" height="0">
+<td style="width: 41pt;" width="55"></td>
+<td style="width: 49pt;" width="65"></td>
+<td style="width: 62pt;" width="82"></td>
+<td style="width: 63pt;" width="84"></td>
+<td style="width: 53pt;" width="71"></td>
+<td style="width: 83pt;" width="110"></td>
+<td style="width: 92pt;" width="122"></td>
+<td style="width: 78pt;" width="104"></td>
+<td style="width: 94pt;" width="125"></td>
+<td style="width: 81pt;" width="108"></td>
+<td style="width: 49pt;" width="65"></td>
+<td style="width: 77pt;" width="102"></td>
+<td style="width: 135pt;" width="180"></td>
+</tr>
+<!--[endif]-->
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</body></html>

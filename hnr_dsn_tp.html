@@ -1,0 +1,795 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>admin_stt</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+overflow: hidden;
+background-color: #333;
+}
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.dropdown {
+float: left;
+overflow: hidden;
+}
+.dropdown .dropbtn {
+font-size: 16px; border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: red;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+</style><!--style KELEBIHAN MENGAJAR-->
+<style id="rancangan 2_payroll_26374_Styles">
+<!--table
+{mso-displayed-decimal-separator:"\,";
+mso-displayed-thousand-separator:"\.";}
+.xl1526374
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:bottom;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6526374
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6626374
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6726374
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6826374
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:middle;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6926374
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:"_\(\[$IDR\]\\ * \#\,\#\#0_\)\;_\(\[$IDR\]\\ * \\\(\#\,\#\#0\\\)\;_\(\[$IDR\]\\ * \0022-\0022_\)\;_\(\@_\)";
+text-align:general;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl7026374
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:"Short Date";
+text-align:center;
+vertical-align:middle;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl7126374
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:"_\(\[$IDR\]\\ * \#\,\#\#0_\)\;_\(\[$IDR\]\\ * \\\(\#\,\#\#0\\\)\;_\(\[$IDR\]\\ * \0022-\0022_\)\;_\(\@_\)";
+text-align:general;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl7226374
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:0;
+text-align:center;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+-->
+</style><!--STYLE GAJI DSN AKADEMIK-->
+<style id="rancangan 2_payroll_22550_Styles">
+<!--table
+{mso-displayed-decimal-separator:"\.";
+mso-displayed-thousand-separator:"\,";}
+.xl1522550
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:bottom;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6322550
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6422550
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6522550
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6622550
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:middle;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6722550
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6822550
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:"_\(\[$IDR\]\\ * \#\,\#\#0_\)\;_\(\[$IDR\]\\ * \\\(\#\,\#\#0\\\)\;_\(\[$IDR\]\\ * \0022-\0022_\)\;_\(\@_\)";
+text-align:general;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl6922550
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:"Short Date";
+text-align:center;
+vertical-align:middle;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl7022550
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:center;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+.xl7122550
+{padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:left;
+vertical-align:bottom;
+border:.5pt solid windowtext;
+mso-background-source:auto;
+mso-pattern:auto;
+white-space:nowrap;}
+-->
+</style>
+</head>
+<body>
+<table style="text-align: left; width: 1348px; height: 578px;" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td style="background-color: rgb(51, 102, 255);">
+<table style="text-align: left; margin-left: 0px; width: 1389px; height: 120px;" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td style="width: 134px;"><img style="width: 129px; height: 104px;" alt="" src="image/aad9fe20-b6c1-4f0c-9aee-e43867fc9a5e.jpg"></td>
+<td style="background-color: white; width: 1200px;">
+<div style="margin-left: 280px;"><big><big><big><span style="font-weight: bold;">&nbsp;WASTUKANCANA</span></big></big></big><br style="font-weight: bold;">
+<span style="font-weight: bold;">&nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp;PAYROLL SYSTEM</span></div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="navbar"><a href="index.html">Home</a>
+<a href="pemasukan.html">Kelola Pemasukan</a>
+<a href="honor.html">Kelola Honor</a>
+<a href="jwdal_kuliah.html">Kelola Jadwal Kuliah</a>
+<a href="kategori.html">Kelola Kategori</a>
+<a href="dosen.html">Dosen dan Tatalaksana</a>
+<a href="kehadiran.html">Kelola Kehadiran</a>
+<a href="pinjaman.html">Kelola Pinjaman</a>
+<a href="laporan.html">Laporan Keuangan</a>
+</div>
+<table ="">
+</table>
+<br>
+<table style="background-color: white; width: 1326px; height: 31px; text-align: left; margin-left: auto; margin-right: auto;" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td>
+<div style="text-align: center; font-weight: bold;">TOTAL
+KELEBIHAN MENGAJAR<br>
+</div>
+<br>
+<div style="text-align: left;"></div>
+<form class="example" action="/action_page.php"><input placeholder="Search.." name="search" type="text"><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"> &nbsp;<span style="font-weight: bold; color: white;">Tanggal Input</span>
+&nbsp;&nbsp;</font><span style="color: white;">
+<select name="tanggal"><option>1/01/2018</option><option>2/01/2018</option><option>3/01/2018</option><option>4/01/2018</option><option>5/01/2018</option><option selected="selected">30/01/2018</option></select>
+</span><span style="color: white;"></span><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><span style="color: white; font-weight: bold;">
+&nbsp; &nbsp;</span></font><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><span style="color: white; font-weight: bold;">Semester</span>
+</font>
+<select name="semester"><option selected="selected">2018/1</option><option>2018/2</option><option>2019/1</option><option>2019/2</option><option>2020/1</option><option>2020/2</option></select>
+<font style="background-color: rgb(51, 51, 255); color: black;" size="-1">&nbsp;&nbsp;
+<button name="Search" class="button">SEARCH</button></font>
+&nbsp;<input name="beban_kehadiran" value="beban_kehadiran"> &nbsp;<button name="Search" class="button">TAMBAH</button>&nbsp;&nbsp;
+&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <button name="Search" class="button">PROCESS</button>
+<br>
+<br>
+<div class="navbar"><span style="color: white;">
+</span><span style="color: white;">&nbsp;
+Tanggal Input&nbsp;
+<select name="tanggal"><option>1/01/2018</option><option>2/01/2018</option><option>3/01/2018</option><option>4/01/2018</option><option>5/01/2018</option><option selected="selected">30/01/2018</option></select>
+<button name="Search" class="button">SAVE</button>
+&nbsp;&nbsp;&nbsp;</span>
+<br>
+</div>
+</form>
+<br>
+<div id="rancangan 2_payroll_26374" x:publishsource="Excel" align="center">
+<table style="border-collapse: collapse; table-layout: fixed; width: 854pt;" border="0" cellpadding="0" cellspacing="0" width="1137">
+<col style="width: 42pt;" width="56">
+<col style="width: 72pt;" width="96"><col style="width: 42pt;" width="56"><col style="width: 44pt;" width="59"><col style="width: 99pt;" width="132"><col class="xl1526374" style="width: 37pt;" width="49"><col style="width: 67pt;" width="89"><col class="xl1526374" span="2" style="width: 79pt;" width="105"> <col style="width: 56pt;" width="75"><col class="xl1526374" style="width: 90pt;" width="120"><col style="width: 85pt;" width="113">
+<col style="width: 62pt;" width="82"><tbody>
+<tr style="height: 15pt;" height="20">
+<td class="xl6526374" style="height: 15pt; width: 42pt;" height="20" width="56">id_dosen</td>
+<td class="xl6526374" style="border-left: medium none; width: 72pt;" width="96">nama_dosen</td>
+<td class="xl6526374" style="border-left: medium none; width: 42pt;" width="56">golongan</td>
+<td class="xl6526374" style="border-left: medium none; width: 44pt;" width="59">semester</td>
+<td class="xl6526374" style="border-left: medium none; width: 99pt;" width="132">total_honor_transport</td>
+<td class="xl6526374" style="border-left: medium none; width: 37pt;" width="49">sks</td>
+<td class="xl6526374" style="border-left: medium none; width: 67pt;" width="89">total_sks_hadir</td>
+<td class="xl6526374" style="border-left: medium none; width: 79pt;" width="105">beban_kehadiran</td>
+<td class="xl6526374" style="border-left: medium none; width: 79pt;" width="105">ttl_kelebihan</td>
+<td class="xl6526374" style="border-left: medium none; width: 56pt;" width="75">honor/sks</td>
+<td class="xl6526374" style="border-left: medium none; width: 90pt;" width="120">kelebihan_mengajar</td>
+<td class="xl6526374" style="border-left: medium none; width: 85pt;" width="113">status_ikatan_kerja</td>
+<td class="xl6526374" style="border-left: medium none; width: 62pt;" width="82">tanggal</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl6626374" style="border-top: medium none; height: 15pt;" height="20">1111</td>
+<td class="xl6726374" style="border-top: medium none; border-left: medium none;">DEDEN
+SANUSI</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">f2</td>
+<td class="xl6826374" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl7126374" style="border-top: medium none; border-left: medium none;"><span style="">&nbsp;</span>IDR<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>320.000 </td>
+<td class="xl7226374" style="border-top: medium none; border-left: medium none;">18</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">72</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">24</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">48</td>
+<td class="xl6926374" style="border-top: medium none; border-left: medium none;"><span style="">&nbsp;</span>IDR<span style="">&nbsp;
+</span>55.000 </td>
+<td class="xl6926374" style="border-top: medium none; border-left: medium none;"><span style="">&nbsp;</span>IDR<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>2.640.000 </td>
+<td class="xl6726374" style="border-top: medium none; border-left: medium none;">dosen
+tetap</td>
+<td class="xl7026374" style="border-top: medium none; border-left: medium none;">30/01/2018</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl6626374" style="border-top: medium none; height: 15pt;" height="20">1112</td>
+<td class="xl6726374" style="border-top: medium none; border-left: medium none;">RAHMAN
+HAKIM</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">f2</td>
+<td class="xl6826374" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl7126374" style="border-top: medium none; border-left: medium none;"><span style="">&nbsp;</span>IDR<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>- </td>
+<td class="xl7226374" style="border-top: medium none; border-left: medium none;">18</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">72</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">24</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">48</td>
+<td class="xl6926374" style="border-top: medium none; border-left: medium none;"><span style="">&nbsp;</span>IDR<span style="">&nbsp;
+</span>55.000 </td>
+<td class="xl6926374" style="border-top: medium none; border-left: medium none;"><span style="">&nbsp;</span>IDR<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>2.640.000 </td>
+<td class="xl6726374" style="border-top: medium none; border-left: medium none;">dosen
+tetap</td>
+<td class="xl7026374" style="border-top: medium none; border-left: medium none;">30/01/2018</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl6626374" style="border-top: medium none; height: 15pt;" height="20">1113</td>
+<td class="xl6726374" style="border-top: medium none; border-left: medium none;">SUSI
+LASTRI</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">f2</td>
+<td class="xl6826374" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl7126374" style="border-top: medium none; border-left: medium none;"><span style="">&nbsp;</span>IDR<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>640.000 </td>
+<td class="xl7226374" style="border-top: medium none; border-left: medium none;">16</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">48</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">24</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">24</td>
+<td class="xl6926374" style="border-top: medium none; border-left: medium none;"><span style="">&nbsp;</span>IDR<span style="">&nbsp;
+</span>55.000 </td>
+<td class="xl6926374" style="border-top: medium none; border-left: medium none;"><span style="">&nbsp;</span>IDR<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>1.320.000 </td>
+<td class="xl6726374" style="border-top: medium none; border-left: medium none;">dosen
+tetap</td>
+<td class="xl7026374" style="border-top: medium none; border-left: medium none;">30/01/2018</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl6626374" style="border-top: medium none; height: 15pt;" height="20">1114</td>
+<td class="xl6726374" style="border-top: medium none; border-left: medium none;">ARIF
+HAKIM</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">f3</td>
+<td class="xl6826374" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl7126374" style="border-top: medium none; border-left: medium none;"><span style="">&nbsp;</span>IDR<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>- </td>
+<td class="xl7226374" style="border-top: medium none; border-left: medium none;">18</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">72</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">24</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">48</td>
+<td class="xl6926374" style="border-top: medium none; border-left: medium none;"><span style="">&nbsp;</span>IDR<span style="">&nbsp;
+</span>70.000 </td>
+<td class="xl6926374" style="border-top: medium none; border-left: medium none;"><span style="">&nbsp;</span>IDR<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>3.360.000 </td>
+<td class="xl6726374" style="border-top: medium none; border-left: medium none;">dosen
+tetap</td>
+<td class="xl7026374" style="border-top: medium none; border-left: medium none;">30/01/2018</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl6626374" style="border-top: medium none; height: 15pt;" height="20">1115</td>
+<td class="xl6726374" style="border-top: medium none; border-left: medium none;">TOPAN
+TRI</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">f3</td>
+<td class="xl6826374" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl7126374" style="border-top: medium none; border-left: medium none;"><span style="">&nbsp;</span>IDR<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>- </td>
+<td class="xl7226374" style="border-top: medium none; border-left: medium none;">18</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">72</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">24</td>
+<td class="xl6626374" style="border-top: medium none; border-left: medium none;">48</td>
+<td class="xl6926374" style="border-top: medium none; border-left: medium none;"><span style="">&nbsp;</span>IDR<span style="">&nbsp;
+</span>70.000 </td>
+<td class="xl6926374" style="border-top: medium none; border-left: medium none;"><span style="">&nbsp;</span>IDR<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>3.360.000 </td>
+<td class="xl6726374" style="border-top: medium none; border-left: medium none;">dosen
+tetap</td>
+<td class="xl7026374" style="border-top: medium none; border-left: medium none;">30/01/2018</td>
+</tr>
+<!--[if supportMisalignedColumns]--> <tr style="display: none;" height="0">
+<td style="width: 42pt;" width="56"></td>
+<td style="width: 72pt;" width="96"></td>
+<td style="width: 42pt;" width="56"></td>
+<td style="width: 44pt;" width="59"></td>
+<td style="width: 99pt;" width="132"></td>
+<td style="width: 37pt;" width="49"></td>
+<td style="width: 67pt;" width="89"></td>
+<td style="width: 79pt;" width="105"></td>
+<td style="width: 79pt;" width="105"></td>
+<td style="width: 56pt;" width="75"></td>
+<td style="width: 90pt;" width="120"></td>
+<td style="width: 85pt;" width="113"></td>
+<td style="width: 62pt;" width="82"></td>
+</tr>
+<!--[endif]-->
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<table style="background-color: white; width: 1376px; height: 31px; text-align: left; margin-left: auto; margin-right: auto;" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td>
+<div style="text-align: center; font-weight: bold;">DATA
+GAJI DOSEN JABATAN AKADEMIK<br>
+</div>
+<br>
+<div style="text-align: left;"></div>
+<form class="example" action="/action_page.php"><input placeholder="Search.." name="search" type="text"><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"> &nbsp;<span style="font-weight: bold; color: white;">Tanggal Input</span>
+&nbsp;&nbsp;</font><span style="color: white;">
+<select name="tanggal"><option>1/01/2018</option><option>2/01/2018</option><option>3/01/2018</option><option>4/01/2018</option><option>5/01/2018</option><option selected="selected">30/01/2018</option></select>
+</span><span style="color: white;"></span><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><span style="color: white; font-weight: bold;">
+&nbsp; &nbsp;</span></font><font style="background-color: rgb(51, 51, 255); color: black;" size="-1"><span style="color: white; font-weight: bold;">Semester</span>
+</font>
+<select name="semester"><option selected="selected">2018/1</option><option>2018/2</option><option>2019/1</option><option>2019/2</option><option>2020/1</option><option>2020/2</option></select>
+<font style="background-color: rgb(51, 51, 255); color: black;" size="-1">&nbsp;&nbsp;
+<button name="Search" class="button">SEARCH</button></font>
+<button name="Search" class="button">PROCESS</button>
+<br>
+<br>
+<div class="navbar"><span style="color: white;">
+</span><span style="color: white;">&nbsp;
+Tanggal Input&nbsp;
+<select name="tanggal"><option>1/01/2018</option><option>2/01/2018</option><option>3/01/2018</option><option>4/01/2018</option><option>5/01/2018</option><option selected="selected">30/01/2018</option></select>
+<button name="Search" class="button">SAVE</button>
+&nbsp;&nbsp;&nbsp;</span>
+<br>
+</div>
+</form>
+<br>
+<div id="rancangan 2_payroll_22550" x:publishsource="Excel" align="center">
+<table style="border-collapse: collapse; table-layout: fixed; width: 957pt;" border="0" cellpadding="0" cellspacing="0" width="1273">
+<col style="width: 41pt;" width="55">
+<col style="width: 49pt;" width="65"><col style="width: 62pt;" width="82"><col style="width: 63pt;" width="84"><col style="width: 53pt;" width="71"><col style="width: 83pt;" width="110"><col style="width: 92pt;" width="122"><col style="width: 78pt;" width="104"><col style="width: 94pt;" width="125"><col style="width: 81pt;" width="108"><col style="width: 49pt;" width="65"><col style="width: 77pt;" width="102"><col style="width: 135pt;" width="180"><tbody>
+<tr style="height: 15pt;" height="20">
+<td class="xl6322550" style="height: 15pt; width: 41pt;" height="20" width="55">id_jb_ak</td>
+<td class="xl6322550" style="border-left: medium none; width: 49pt;" width="65">bulan</td>
+<td class="xl6322550" style="border-left: medium none; width: 62pt;" width="82">id_jabatan_ak</td>
+<td class="xl6322550" style="border-left: medium none; width: 63pt;" width="84">id_dosen</td>
+<td class="xl6322550" style="border-left: medium none; width: 53pt;" width="71">semester</td>
+<td class="xl6322550" style="border-left: medium none; width: 83pt;" width="110">nama_dosen</td>
+<td class="xl6322550" style="border-left: medium none; width: 92pt;" width="122">jabatan_akademik</td>
+<td class="xl6322550" style="border-left: medium none; width: 78pt;" width="104">gaji_pokok</td>
+<td class="xl6322550" style="border-left: medium none; width: 94pt;" width="125">tunjangan_fungsional</td>
+<td class="xl6322550" style="border-left: medium none; width: 81pt;" width="108">total_ak</td>
+<td class="xl6322550" style="border-left: medium none; width: 49pt;" width="65">tanggal</td>
+<td class="xl6322550" style="border-left: medium none; width: 77pt;" width="102">Status<span style=""> </span></td>
+<td class="xl6322550" style="border-left: medium none; width: 135pt;" width="180">Action</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl6422550" style="border-top: medium none; height: 15pt;" height="20">612</td>
+<td class="xl6622550" style="border-top: medium none; border-left: medium none;">1</td>
+<td class="xl6422550" style="border-top: medium none; border-left: medium none;">2</td>
+<td class="xl6422550" style="border-top: medium none; border-left: medium none;">1112</td>
+<td class="xl6622550" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl6522550" style="border-top: medium none; border-left: medium none;">RAHMAN
+HAKIM</td>
+<td class="xl7122550" style="border-top: medium none; border-left: medium none;">Lektor</td>
+<td class="xl6822550" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>7,000,000
+</td>
+<td class="xl6822550" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>3,000,000
+</td>
+<td class="xl6822550" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>10,000,000
+</td>
+<td class="xl6922550" style="border-top: medium none; border-left: medium none;">30-01-18</td>
+<td class="xl7022550" style="border-top: medium none; border-left: medium none;">UNPROCESS</td>
+<td class="xl6722550" style="border-top: medium none; border-left: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp;
+&nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl6422550" style="border-top: medium none; height: 15pt;" height="20">613</td>
+<td class="xl6622550" style="border-top: medium none; border-left: medium none;">1</td>
+<td class="xl6422550" style="border-top: medium none; border-left: medium none;">3</td>
+<td class="xl6422550" style="border-top: medium none; border-left: medium none;">1113</td>
+<td class="xl6622550" style="border-top: medium none; border-left: medium none;">2018/1</td>
+<td class="xl6522550" style="border-top: medium none; border-left: medium none;">SUSI
+LASTRI</td>
+<td class="xl7122550" style="border-top: medium none; border-left: medium none;">Asisten
+Ahli</td>
+<td class="xl6822550" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>5,000,000
+</td>
+<td class="xl6822550" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>3,000,000
+</td>
+<td class="xl6822550" style="border-top: medium none; border-left: medium none;"><span style=""> </span>IDR<span style=""> </span>8,000,000
+</td>
+<td class="xl6922550" style="border-top: medium none; border-left: medium none;">30-01-18</td>
+<td class="xl7022550" style="border-top: medium none; border-left: medium none;">UNPROCESS</td>
+<td class="xl6722550" style="border-top: medium none; border-left: medium none;">&nbsp;&nbsp;<span style="font-weight: bold; background-color: rgb(51, 51, 255); color: white;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EDIT &nbsp;
+&nbsp; &nbsp; &nbsp;<span style="background-color: white;">&nbsp;<span style="color: white; background-color: rgb(51, 102, 255);"><span style="background-color: red;"> &nbsp; &nbsp;
+&nbsp; DELETE&nbsp;&nbsp;&nbsp;&nbsp;</span> </span></span></span></td>
+</tr>
+<!--[if supportMisalignedColumns]-->
+<tr style="display: none;" height="0">
+<td style="width: 41pt;" width="55"></td>
+<td style="width: 49pt;" width="65"></td>
+<td style="width: 62pt;" width="82"></td>
+<td style="width: 63pt;" width="84"></td>
+<td style="width: 53pt;" width="71"></td>
+<td style="width: 83pt;" width="110"></td>
+<td style="width: 92pt;" width="122"></td>
+<td style="width: 78pt;" width="104"></td>
+<td style="width: 94pt;" width="125"></td>
+<td style="width: 81pt;" width="108"></td>
+<td style="width: 49pt;" width="65"></td>
+<td style="width: 77pt;" width="102"></td>
+<td style="width: 135pt;" width="180"></td>
+</tr>
+<!--[endif]-->
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</body></html>
